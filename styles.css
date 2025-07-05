@@ -1,0 +1,70 @@
+#inputarea {
+    text-align: left;
+    position: relative;
+    margin: 0px auto 0px auto; 
+    background-color: rgb(255, 255, 255);
+    width: 470px;
+    height: 500px;
+    padding: 19px;
+    border-radius: 32px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+}
+
+#result {
+top: 14px;
+position: relative;
+color: #37a175;
+}
+
+#textstuff {
+    bottom: 10px;
+    position: relative;
+}
+
+button {
+    border: none;
+    padding: 20px 190px 20px 180px ;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #8beec4;
+    font-size: 19px;
+    text-align: center;
+    left: 6px;
+    position: relative;
+}
+
+body {
+    background-color: #8beec4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+}
+
+#resultcontainer {
+    width: 500px;
+    height: 90px;
+    background-color: white;
+    text-align: right;
+    text-align: center;
+    position: relative;
+    margin: 60px auto 0px auto;
+    border-radius: 25px;
+    bottom: 50px;
+}
+
+.textbox {
+    padding: 8px 28px 8px 28px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #b7b7b7;
+    box-shadow: none;
+    font-size: 13px;
+}
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
