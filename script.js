@@ -19,10 +19,10 @@
                 }
             
                 if (malecb.checked) {
-                    result =  [66 + (6.23 * document.getElementById('weight').value) + (12.7 * (Number(document.getElementById('height').value) * 12)) - (6.8 * document.getElementById('age').value)] * ActivityFactor - 500
+                    result =  [66 + (6.23 * document.getElementById('weight').value) + (12.7 * (document.getElementById('height').value * 12)) - (6.8 * document.getElementById('age').value)] * ActivityFactor - 500
                 }
                  if (femalecb.checked) {
-                    result =  [655 + (4.35 * document.getElementById('weight').value) + (4.7 * document.getElementById('height').value) - (4.7 * document.getElementById('age').value)] * ActivityFactor - 500
+                    result =  [655 + (4.35 * document.getElementById('weight').value) + (4.7 * (document.getElementById('height').value * 12)) - (4.7 * document.getElementById('age').value)] * ActivityFactor - 500
                 }
 
               document.getElementById('result').textContent = Math.floor(result) 
