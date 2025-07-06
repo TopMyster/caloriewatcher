@@ -33,6 +33,11 @@ button {
     text-align: center;
     left: 6px;
     position: relative;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 110%;
 }
 
 body {
@@ -68,6 +73,6 @@ body {
       -webkit-appearance: none;
       margin: 0;
     }
-      #malebtn {
-         margin-right: 3px;
-    }
+label {
+    cursor: pointer;
+}
