@@ -31,7 +31,7 @@ function submition() {
         result = (10 * weight) + (6.25 * height) - (5 * age) - 161
     }
 
-    result = result * ActivityFactor
+    result = (result * ActivityFactor) - 500
 
     document.getElementById('result').textContent = Math.floor(result)
 }
