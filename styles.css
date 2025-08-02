@@ -12,9 +12,9 @@
 }
 
 #result {
-top: 14px;
-position: relative;
-color: #37a175;
+    top: 14px;
+    position: relative;
+    color: #37a175;
 }
 
 #textstuff {
@@ -27,17 +27,20 @@ button {
     padding: 20px 190px 20px 180px ;
     font-size: 15px;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 14px;
     background-color: #8beec4;
     font-size: 19px;
     text-align: center;
     left: 6px;
     position: relative;
     cursor: pointer;
+    margin-bottom: 10px;
+    transition: .2s;
 }
 
 button:hover {
     scale: 103%;
+    transition: .2s;
 }
 
 body {
@@ -52,7 +55,7 @@ body {
     text-align: right;
     text-align: center;
     position: relative;
-    margin: 60px auto 0px auto;
+    margin: 70px auto 0px auto;
     border-radius: 25px;
     bottom: 50px;
 }
